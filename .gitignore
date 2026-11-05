@@ -1,0 +1,27 @@
+# Bağımlılık ve derleme
+node_modules/
+dist/
+.tools/
+
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+
+# Test çıktıları ve loglar
+tests/e2e/ekranlar/
+coverage/
+*.log
+
+# Sistem ve editör
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.local

@@ -1,0 +1,15 @@
+.ds-pets { display: flex; flex-direction: column; gap: 14px; }
+.ds-pets__row > strong { font-weight: 800; color: var(--heading); }
+.ds-pets__stages { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
+.ds-pets figure { margin: 0; flex-shrink: 0; width: 138px; text-align: center; padding: 8px 4px; background: var(--surface-2); border-radius: 12px; }
+.ds-pets figure svg { margin: 0 auto; }
+.ds-pets figcaption { font-size: 12px; font-weight: 700; color: var(--muted); margin-top: 4px; }
+.ds-grid { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 900px) { .ds-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.ds-ribbon { display: flex; flex-direction: column; align-items: center; gap: 18px; padding-top: 18px; }
+.ds-colors { display: grid; gap: 9px; margin-top: 12px; }
+.ds-colors li { display: flex; align-items: center; gap: 12px; }
+.ds-colors span { width: 40px; height: 40px; border-radius: 11px; box-shadow: inset 0 0 0 1px rgb(12 21 34 / 0.08); flex-shrink: 0; }
+.ds-colors strong { display: block; font-weight: 800; font-size: 13.5px; color: var(--heading); }
+.ds-colors small { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+.ds-type, .ds-comp { display: flex; flex-direction: column; gap: 12px; }
